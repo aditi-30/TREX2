@@ -198,6 +198,7 @@ function reset(){
   if(localStorage["HighestScore"]<score){
     localStorage["HighestScore"] = score;
   }
+  text("High Score",localStorage["HighestScore"],150,50);
   console.log(localStorage["HighestScore"]);
   
   score = 0;
